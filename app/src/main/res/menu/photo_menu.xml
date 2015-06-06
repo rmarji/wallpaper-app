@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Favirote -->
+    <item android:id="@+id/menu_fav"
+        android:icon="@drawable/ic_star_outline"
+        android:title="@string/menu_fav"
+        app:showAsAction="always"/>
+
+    <!-- setaswallpaper -->
+    <item android:id="@+id/menu_setaswallaper"
+        android:title="@string/menu_setaswallpaper"
+        app:showAsAction="never"/>
+
+    <!-- Play & Stop-->
+    <item android:id="@+id/menu_play"
+        android:icon="@drawable/ic_play"
+        android:title="@string/menu_slideshow"
+        app:showAsAction="never"/>
+
+    <!-- Share -->
+	<item android:id="@+id/menu_share"
+          android:title="@string/menu_share"
+          app:showAsAction="never"/>
+			     
+    <!-- Save -->
+	<item android:id="@+id/menu_save"
+		  android:title="@string/menu_save"
+          app:showAsAction="never"/>
+
+	<!-- Pinch Zoom -->
+	<item android:id="@+id/menu_zoom"
+          android:title="@string/menu_zoom"
+          app:showAsAction="never"/>
+
+    <!-- next -->
+    <item android:id="@+id/menu_next"
+        android:title="@string/menu_next"
+        app:showAsAction="never"/>
+
+
+    <!-- Back will display always -->
+    <item android:id="@+id/menu_back"
+        android:title="@string/menu_back"
+        app:showAsAction="never"/>
+
+</menu>

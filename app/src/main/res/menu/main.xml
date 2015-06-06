@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <!-- Rate App -->
+    <item
+        android:id="@+id/menu_rateapp"
+        app:showAsAction="never"
+        android:title="@string/menu_rateapp"/>
+
+    <!-- More App -->
+    <item
+        android:id="@+id/menu_moreapp"
+        app:showAsAction="never"
+        android:title="@string/menu_moreapp"/>
+
+</menu>
